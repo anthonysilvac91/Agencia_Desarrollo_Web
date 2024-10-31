@@ -5,6 +5,7 @@ import Service from './Pages/Service'
 import AboutUs from './Pages/AboutUs'
 import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
+import '@fontsource/poppins'
 
 function App() {
   
