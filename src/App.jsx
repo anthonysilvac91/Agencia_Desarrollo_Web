@@ -6,12 +6,15 @@ import AboutUs from './Pages/AboutUs'
 import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
 import '@fontsource/poppins'
+import Navbar from './Components/Navbar';
+
 
 function App() {
   
 
   return (
     <>
+    <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/servicios" element={<Service />} />

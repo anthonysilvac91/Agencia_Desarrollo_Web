@@ -4,9 +4,9 @@ import Button from '../Components/button'
 const Home = () => {
   return (
     <>
-    <div>Home</div>
-    <Button text="Quiero saber más"/>
-    <div className='bg-blue-light'>asdadasdasdasdsdsa</div>
+    <div className='mt-20'>Home</div>
+  
+ 
     </>
   )
 }
