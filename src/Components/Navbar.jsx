@@ -22,12 +22,25 @@ const Navbar = () => {
     <nav className=''>
         <div className='flex justify-between py-5 items-center'>
             
-            <div className='w-[150px]'>
+            <div className='w-[150px] 2xl:w-[180px] xl:w-[160px]'>
                 <img className='w-100' src={logo_light} alt="" />
             </div>
-            <div className='text-2xl'>
+            <div className='text-2xl lg:hidden'>
                 <FontAwesomeIcon icon={menuOpen ? faX : faBars} onClick={toggleMenu}/>
             </div>
+
+            {/* Menú en línea para pantallas grandes */}
+            <ul className='hidden lg:flex gap-6 2xl:text-[20px] xl:text-[18px]'>
+                        {menuItems.map((item, index) => (
+                            <li key={index}>
+                                <Link to={`${item.route.toLowerCase()}`}>
+                                    <span className={`${location.pathname === item.route.toLowerCase() ? 'text-blue-dark' : 'text-black'} font-bold cursor-pointer`}>
+                                        {item.text}
+                                    </span>
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
             
             
 
