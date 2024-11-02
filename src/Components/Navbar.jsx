@@ -18,7 +18,8 @@ const Navbar = () => {
    
 
   return (
-    <nav>
+    <>
+    <nav className=''>
         <div className='flex justify-between py-5 items-center'>
             
             <div className='w-[150px]'>
@@ -28,21 +29,23 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={menuOpen ? faX : faBars} onClick={toggleMenu}/>
             </div>
             
+            
 
         </div>
+        <div className='bg-blue-dark h-[2px] w-full left-0 fixed'></div>
+
+            
         
 
 
         {menuOpen && (
             <> 
-             <div onClick={toggleMenu}></div>
-             <div>
-             
+           <div className='fixed bg-white w-full h-full left-0 py-5 px-12 z-50 border-t-2 border-blue-dark'>
                 <ul>
                 {menuItems.map((item,index) =>(
                     <li key={index}>
                         <Link to={`${item.route.toLowerCase()}`}>
-                            <span className={`${location.pathname === `${item.route.toLowerCase()}` ? 'text-black' : 'text-blue'}`}>
+                            <span className={`${location.pathname === `${item.route.toLowerCase()}` ? 'text-blue-dark' : 'text-black'} font-bold cursor-pointer`}>
                             {item.text} 
                             </span>                        
                         </Link>
@@ -52,17 +55,20 @@ const Navbar = () => {
                 ))}
                 </ul>
              </div> 
-
-             
              
              </>
-
-
-        )}          
+            
+        )}  
+                
     </nav>
+
+
     
+   
     
+</>
   )
 }
 
 export default Navbar
+

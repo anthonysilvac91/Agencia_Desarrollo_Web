@@ -4,7 +4,7 @@ import Button from '../Components/button'
 const Home = () => {
   return (
     <>
-    <div className='mt-20'>Home</div>
+    <div className='mt-48'>Home</div>
   
  
     </>
