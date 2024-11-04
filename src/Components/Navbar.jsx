@@ -18,7 +18,7 @@ const Navbar = () => {
    
 
   return (
-    <header className='px-psm xl:px-pxl 2xl:px-p2xl'>
+    <header className='px-psm xl:px-pxl 2xl:px-p2xl 3xl:px-p3xl'>
     <nav className=''>
         <div className='flex justify-between py-5 items-center'>
             

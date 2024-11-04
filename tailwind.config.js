@@ -18,6 +18,10 @@ export default {
         'psm': '50px',
         'pxl': '150px',
         'p2xl': '200px',
+        'p3xl': '300px',
+      },
+      screens:{
+        '3xl': '1920px'
       }
       
       

@@ -5,14 +5,14 @@ import { faFacebookF, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg
 
 const Footer = () => {
   return (
-    <footer className='bg-blue-light px-psm xl:px-pxl 2xl:px-p2xl py-3 flex flex-col lg:flex-row lg:justify-between lg:items-center'>
+    <footer className='bg-blue-light px-psm xl:px-pxl 2xl:px-p2xl 3xl:px-p3xl py-3 flex flex-col lg:flex-row lg:justify-between lg:items-center'>
         <div className='grid grid-cols-3'>
 
             <div className='h-20 2xl:h-24 lg:justify-start col-span-3 flex justify-center items-center'>
                 <img className='h-full' src={logo_blue} alt="logo_digilab" />
             </div>
 
-            <div className='col-span-3 text-black text-sm md:text-center md:my-3 2xl:text-[20px] xl:text-[18px] lg:text-[16px] '>
+            <div className='col-span-3 text-black text-sm md:text-center lg:text-start md:my-3 2xl:text-[20px] xl:text-[18px] lg:text-[16px] '>
                 <p className='my-2 xl:my-4'>
                 ¡Hey! Somos la agencia creativa y digital que necesitas
                 </p>
@@ -35,7 +35,7 @@ const Footer = () => {
             
         </div>
 
-        <div className='grid grid-cols-2 my-2 text-sm 2xl:gap-6 lg:gap-4 xl:items-center md:text-center md:gap-4 '>
+        <div className='grid grid-cols-2 my-2 text-sm 2xl:gap-6 lg:gap-4 xl:items-center md:text-center lg:text-start md:gap-4 '>
             <div className=' col-span-1'>
                 <h3 className='text-blue-dark font-semibold lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 2xl:mb-2 lg:mb-2 '>Desarrollo Web</h3>
                 <li className='text-[10px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] '>Diseño web</li>
