@@ -7,6 +7,7 @@ import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
 import '@fontsource/poppins'
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contacto" element={<Contact />} />
       </Routes>
+    <Footer/>
     </>
   )
 }

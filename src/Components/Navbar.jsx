@@ -3,7 +3,7 @@ import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { menuItems } from '../Utils/menuItems';
-import logo_light from '../assets/logo_light.png'
+import logo_light from '../assets/logo_white.png'
 
 
 
@@ -18,7 +18,7 @@ const Navbar = () => {
    
 
   return (
-    <>
+    <header className='px-psm xl:px-pxl 2xl:px-p2xl'>
     <nav className=''>
         <div className='flex justify-between py-5 items-center'>
             
@@ -79,7 +79,7 @@ const Navbar = () => {
     
    
     
-</>
+</header>
   )
 }
 

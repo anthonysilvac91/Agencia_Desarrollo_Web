@@ -14,6 +14,11 @@ export default {
         'green': 'var(--green)',
         'gray': 'var(--gray)',
       },
+      padding:{
+        'psm': '50px',
+        'pxl': '150px',
+        'p2xl': '200px',
+      }
       
       
         

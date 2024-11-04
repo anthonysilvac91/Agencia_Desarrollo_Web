@@ -16,3 +16,12 @@ Estas variables están configuradas en el archivo de estilos global del proyecto
 
 Fuente
 La fuente principal del proyecto es Poppins, utilizada por su diseño limpio y profesional.
+
+
+se establecen variables propias de paddin para manejar los padding desponsive de las sesciones
+padding:{
+        'psm': '50px',
+        'pxl': '150px',
+        'p2xl': '200px',
+      }
+      
