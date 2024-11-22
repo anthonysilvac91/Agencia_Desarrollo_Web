@@ -1,10 +1,11 @@
 import React from 'react'
-import Button from '../Components/button'
+import Hero from '../Components/Hero'
+
 
 const Home = () => {
   return (
     <>
-    <div className='bg-black mb-10'>Home</div>
+    <Hero/>
   
  
     </>

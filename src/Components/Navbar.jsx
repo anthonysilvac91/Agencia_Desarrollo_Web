@@ -45,7 +45,7 @@ const Navbar = () => {
             
 
         </div>
-        <div className='bg-blue-dark h-[2px] w-full left-0 fixed'></div>
+        {/* <div className='bg-blue-dark h-[2px] w-full left-0 fixed'></div> */}
 
             
         
@@ -53,7 +53,7 @@ const Navbar = () => {
 
         {menuOpen && (
             <> 
-           <div className='fixed bg-white w-full h-full left-0 py-5 px-12 z-50 border-t-2 border-blue-dark'>
+           <div className='fixed bg-white w-full h-full left-0 py-5 px-12 z-50'>
                 <ul>
                 {menuItems.map((item,index) =>(
                     <li key={index}>
