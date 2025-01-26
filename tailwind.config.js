@@ -22,7 +22,10 @@ export default {
       },
       screens:{
         '3xl': '1920px'
-      }
+      },
+      height: {
+        '90vh': '90vh',
+      },
       
       
         

@@ -14,20 +14,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    /* padding: 50px;
-    padding: 50px; */
   }
 
-  /* @media (min-width: 1536px){
-    body{
-        margin: 0px 200px 0px 200px;
+  @layer utilities {
+    .responsive-padding {
+      @apply px-psm xl:px-pxl 2xl:px-p3xl 3xl:px-p3xl;
     }
-
   }
-
-  @media (min-width: 1280px){
-    body{
-        margin: 0px 150px 0px 150px;
-    }
-
-  } */
+ 

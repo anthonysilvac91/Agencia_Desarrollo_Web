@@ -14,7 +14,7 @@ const Footer = () => {
 
             <div className='col-span-3 text-black text-sm md:text-center lg:text-start md:my-3 2xl:text-[20px] xl:text-[18px] lg:text-[16px] '>
                 <p className='my-2 xl:my-4'>
-                ¡Hey! Somos la agencia creativa y digital que necesitas
+                Somos la agencia creativa y digital que necesitas
                 </p>
                 <p className='font-semibold text-blue-dark mb-2 xl:mb-3'>
                 Síguenos y llevemos tu negocio al siguiente nivel

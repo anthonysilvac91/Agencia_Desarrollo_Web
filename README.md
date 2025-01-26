@@ -23,6 +23,7 @@ padding:{
         'psm': '50px',
         'pxl': '150px',
         'p2xl': '200px',
+        'p3xl:'300px'
       }
       
 
