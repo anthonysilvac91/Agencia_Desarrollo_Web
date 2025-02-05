@@ -1,9 +1,8 @@
 import React from 'react'
-import InternetPresenceComponent from '../Components/Home/internetPresenceComponent'
 
 const Contact = () => {
   return (
-    <InternetPresenceComponent/>
+    <div>Contact</div>
   )
 }
 

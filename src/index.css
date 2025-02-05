@@ -18,7 +18,7 @@ body {
 
   @layer utilities {
     .responsive-padding {
-      @apply px-psm xl:px-pxl 2xl:px-p3xl 3xl:px-p3xl;
+      @apply px-psm sm:px-pmd xl:px-pxl 2xl:px-p3xl 3xl:px-p3xl;
     }
   }
  

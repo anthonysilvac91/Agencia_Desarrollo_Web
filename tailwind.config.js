@@ -15,7 +15,8 @@ export default {
         'gray': 'var(--gray)',
       },
       padding:{
-        'psm': '50px',
+        'psm': '25px',
+        'pmd': '50px',
         'pxl': '150px',
         'p2xl': '200px',
         'p3xl': '300px',

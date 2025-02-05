@@ -13,9 +13,9 @@ const Home = () => {
    
     
     <Hero/>
-    <div className='mx-20 border-2 border-blue-dark shadow-xl'></div>
+    <div className='mx-5 sm:mx-14 md:mx-20 border-2 border-blue-dark shadow-xl'></div>
     <ServiceMessage/>
-    <div className='mx-20 border-2 border-blue-dark shadow-xl'></div>
+    <div className='mx-5 sm:mx-14 md:mx-20 border-2 border-blue-dark shadow-xl'></div>
     <AboutMessage/>
     <Intromessage/>
     

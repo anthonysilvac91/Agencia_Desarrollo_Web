@@ -9,17 +9,19 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
 
-<div className='responsive-padding flex justify-center items-center flex-col lg:flex-row-reverse 2xl:gap-40 my-10'>
+<div className='responsive-padding flex justify-center items-center flex-col lg:flex-row-reverse lg:gap-20 xl:gap-40 my-5 md:my-10'>
 
         <div className='max-w-[480px]'>
             <img className='rounded-xl' src={img_hero} alt="Person_hero" />
         </div>
 
         <div className=''>
-            <p className='text-blue-dark font-bold'>_Enfócate en tu negocio_</p>
-            <h1 className='text-black font-bold  2xl:text-5xl 2xl:leading-snug 2xl:mb-4'>Nosotros nos encargamos de que tu MARCA 
+            <p className='text-blue-dark font-bold text-sm text-md sm:text-xl md:text-2xl mt-5 md:mt-10'>_Enfócate en tu negocio_</p>
+            
+            <h1 className='text-black font-bold text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl leading-snug sm:leading-snug  mb-2 sm:mb-4'>Nosotros nos encargamos de que tu MARCA 
             </h1>
-            <h2 className="text-blue-dark font-bold 2xl:text-6xl 2xl:my-4">
+
+            <h2 className="text-blue-dark font-bold text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl my-2 sm:my-2 md:my-4">
               <Typewriter
                 options={{
                   strings: ['BRILLE', 'DESTAQUE', 'CREZCA'],
@@ -30,9 +32,9 @@ const Hero = () => {
                 }}
               />
             </h2>
-            <p className='2xl:text-2xl 2xl:my-4 '>Tenemos soluciones para hacer crecer tu negocio</p>
+            <p className='text-xl md:text-2xl lg:text-xl xl:text-2xl my-2 md:my-4 '>Tenemos soluciones para hacer crecer tu negocio</p>
             <div>
-            <Button  text={'Quiero saber más'} fontSize={'2xl:text-3xl'} paddingX={"2xl:px-4"} paddingY={'2xl:py-2'}/>
+            <Button  text={'Quiero saber más'} fontSize={'text-lg md:text-xl lg:text-lg xl:text-xl'} paddingX={"px-3 md:px-4 lg:px-3 xl:px-4"} paddingY={'py-1 md:py-2 lg:py-1 xl:py-2'}/>
             </div>    
         </div>
   
